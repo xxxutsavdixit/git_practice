@@ -8,3 +8,7 @@ jobs:
             run: echo  "Hello World"
           - name: print goodbye
             run: echo "GOODbye"
+          - name: Set up Node.js 12
+            uses: actions/setup-node@v3
+            with:
+             node-version: '12'

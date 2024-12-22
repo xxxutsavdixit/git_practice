@@ -8,9 +8,9 @@ jobs:
             run: echo  "Hello World"
           - name: print goodbye
             run: echo "GOODbye"
-          - name: Set up Node.js 12
+          - name: Set up Node.js 16.14.0
             uses: actions/setup-node@v3
             with:
-             node-version: '12'
+             node-version: '16.14.0'
           - name: Check Node.js version
             run: node --version
